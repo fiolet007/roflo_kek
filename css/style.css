@@ -276,6 +276,7 @@ body {
 	.menu-btn-active:before{
 		transform: rotate(45deg);
 		margin-top: 0;
+		z-index: 99;
 	}
 	.menu-btn-active:after{
 		transform: rotate(-45deg);
